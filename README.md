@@ -7,7 +7,7 @@ Route - /classifieds/add
 Route- /classifieds/paginate
 
 sample response 
-
+```
 [{
     "_id": "id",
     "name": "Nike footwear",
@@ -18,13 +18,13 @@ sample response
     "postedAt": "2023-02-04",
     "price": "4353",
 }]
-
+```
 Query- ex- url/classifieds/paginate?page=1&limit=4
 
 Route- /classifieds (to get all products)
 
 sample response 
-
+```
 [{
     "_id": "id",
     "name": "Nike footwear",
@@ -35,14 +35,14 @@ sample response
     "postedAt": "2023-02-04",
     "price": "4353",
 }]
-
+```
 
 Route- /classifieds (to sort data by posted date)
 ex- url/classifieds?sort=postedAt&order=asc  (order can only be asc or desc)
 Route - /classifieds/:category (filter by category)
 
 sample response 
-
+```
 [{
     "_id": "id",
     "name": "Nike footwear",
@@ -53,3 +53,4 @@ sample response
     "postedAt": "2023-02-04",
     "price": "4353",
 }]
+```
